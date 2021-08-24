@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(59, 59, 59);
+}
+
+html,
+body {
+    width: 98.9vw;
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    font-weight: 900;
+}
+
+h4{
+    font-weight: 600;
+}
+
+section {
+    width: 80%;
+    border-radius: 0 0 24px 24px;
+}
+
+.header,
+header {
+    border-radius: 12px 12px 0 0;
+}
+
+header {
+    width: 100%;
+    height: 101%;
+    background: rgb(235, 255, 0);
+    background: linear-gradient(15deg, #EBFF00, #F99200);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.player-photo {
+    width: 200px;
+    margin-left: 20px;
+    display: flex;
+}
+
+.player-photo img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.player-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 300px;
+}
+
+.player-name p {
+    color: #37003C;
+}
+
+.player-name p:first-child {
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.player-name p:last-child {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.player-number {
+    margin-right: 20px;
+    height: 200px;
+}
+
+.player-number p {
+    font-size: 8rem;
+    font-weight: 900;
+    color: transparent;
+    -webkit-text-stroke: 3px #37003C;
+    letter-spacing: 5px;
+}
+
+.content {
+    display: flex;
+    height: 80%;
+    padding-bottom: 30px;
+    justify-content: space-around;
+    margin-top: 0;
+    background-color: whitesmoke;
+}
+
+.content aside {
+    background-color: whitesmoke;
+    width: 30%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 16px;
+}
+
+.content aside,
+.player-stats {
+    padding: 20px;
+}
+
+.player-info {
+    height: 150px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.player-info,
+.player-record,
+.player-awards {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.player-info .club,
+.player-info .position,
+.appearences,
+.goals,
+.assist,
+.gotm-title,
+.potm-title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.social-media p {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 90%;
+}
+
+.social-media i {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media i:not(:last-child) {
+    margin-right: 20px;
+}
+
+.appearences,
+.goals,
+.assist,
+.awards-dates {
+    margin: 5px 0;
+}
+
+.appearences p,
+.goals p,
+.assist p,
+.awards-dates p {
+    margin: 2.5px 0;
+}
+
+.gotm,
+.potm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.player-stats {
+    background-color: whitesmoke;
+    width: 60%;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resumed-stats {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    width: 95%;
+    margin-bottom: 45px;
+    border-radius: 8px;
+    /* background-color: rgb(199, 199, 199); */
+    border: 2px solid rgb(199, 199, 199);
+}
+
+.resumed-stats .appearences,
+.resumed-stats .goals,
+.resumed-stats .wins,
+.resumed-stats .loses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    margin: 20px;
+}
+
+.detailed-stats {
+    border: 2px solid rgb(199, 199, 199);
+    border-radius: 8px;
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.attack,
+.team-play,
+.discipline,
+.defense {
+    width: 50%;
+    padding: 20px;
+}
+
+.d-stats {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.d-stats h4,
+.d-stats p {
+    margin-right: 8px;
+}
+
+.d-stats h4 {
+    font-size: 95%;
+}
